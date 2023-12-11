@@ -1,0 +1,119 @@
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --verydarkblue: hsl(234, 12%, 34%);
+    --grauyishblue: hsl(229, 6%, 66%);
+    --verylightgray: hsl(0, 0%, 98%);
+}
+
+@font-face {
+    font-family: 'Poppins',
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+url()
+}
+
+html {
+    font-size: 62.5%; 
+    box-sizing: border-box; 
+    margin: auto 0;
+    padding: auto 0;
+    }
+
+ *, * :before,*:after{
+     box-sizing: inherit;
+    }
+
+ 
+body {
+   background-color: gray;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--verylightgray);
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+
+h1 {
+    
+    
+}
+
+h2 {
+    font-weight: bold;
+
+}
+
+h2, h3 {
+
+    color: var(--verydarkblue);
+    
+    
+    
+
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.intro__paragraph {
+
+   
+
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 5rem;
+    padding: 5rem;
+    box-shadow: 11px, 7px, 32px,-10px rgba(0, 0, 0.75);
+    background-color: #fff;
+
+
+
+}
+
+svg {
+    margin-left: 20rem;
+    
+}
+
+.box1 {
+
+    padding: 5rem;
+   
+
+
+}
+
+.box2 {
+    padding: 5rem;
+
+    
+
+
+}
+
+.box3 {
+
+    padding: 5rem;
+
+
+}
+
+.box4 {
+
+    padding: 5rem;
+
+
+}
+
